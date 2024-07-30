@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YawnDB.Core", "YawnDB.Core\YawnDB.Core.csproj", "{07394FE2-A505-4762-B268-ED32EA63BE07}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2874DA57-6DDF-4B45-A7FB-3DC8886AEB45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{42B48B98-7BCB-40A9-85DD-FD6F4599C242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YawnDB.Core.Tests.Unit", "YawnDB.Core.Tests.Unit\YawnDB.Core.Tests.Unit.csproj", "{AC8D6597-8939-49D4-BDA5-A5B5C26932C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,13 @@ Global
 		{07394FE2-A505-4762-B268-ED32EA63BE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07394FE2-A505-4762-B268-ED32EA63BE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07394FE2-A505-4762-B268-ED32EA63BE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC8D6597-8939-49D4-BDA5-A5B5C26932C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8D6597-8939-49D4-BDA5-A5B5C26932C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8D6597-8939-49D4-BDA5-A5B5C26932C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8D6597-8939-49D4-BDA5-A5B5C26932C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07394FE2-A505-4762-B268-ED32EA63BE07} = {2874DA57-6DDF-4B45-A7FB-3DC8886AEB45}
+		{AC8D6597-8939-49D4-BDA5-A5B5C26932C2} = {42B48B98-7BCB-40A9-85DD-FD6F4599C242}
 	EndGlobalSection
 EndGlobal
